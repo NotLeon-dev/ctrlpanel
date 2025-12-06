@@ -462,7 +462,7 @@
     <strong>Copyright &copy; 2021-{{ date('Y') }} <a
         href="{{ url('/') }}">{{ config('app.name','Ctrlpanel.gg') }}</a>.</strong>
     All rights
-    reserved. Powered by <a href="https://CtrlPanel.gg">CtrlPanel</a>.
+    reserved.
     @if (!str_contains(config('BRANCHNAME'), 'main') && !str_contains(config('BRANCHNAME'), 'unknown'))
       Version <b>{{ config('app')['version'] }} - {{ config('BRANCHNAME') }}</b>
     @endif
